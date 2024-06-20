@@ -1477,6 +1477,66 @@
             "rid": "win"
           }
         }
+      },
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
+      "DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DtoLayer.dll": {}
+        }
+      },
+      "EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -4006,10 +4066,34 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer/BusinessLayer.csproj",
+      "msbuildProject": "../BusinessLayer/BusinessLayer.csproj"
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../DtoLayer/DtoLayer.csproj",
+      "msbuildProject": "../DtoLayer/DtoLayer.csproj"
+    },
+    "EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BusinessLayer >= 1.0.0",
+      "DataAccessLayer >= 1.0.0",
+      "DtoLayer >= 1.0.0",
+      "EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -4042,7 +4126,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj"
+            },
+            "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj"
+            },
+            "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

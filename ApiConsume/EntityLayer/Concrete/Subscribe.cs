@@ -8,7 +8,7 @@ namespace EntityLayer.Concrete
 {
     public class Subscribe
     {
-        public int SubscribeID { get; set; }
+        public int Id { get; set; }
         public string Mail { get; set; }
     }
 }

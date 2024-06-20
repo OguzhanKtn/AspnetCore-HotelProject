@@ -8,7 +8,7 @@ namespace EntityLayer.Concrete
 {
     public class Staff
     {
-        public int StaffID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Title { get; set; }
         public string SocialMedia1 { get; set; }

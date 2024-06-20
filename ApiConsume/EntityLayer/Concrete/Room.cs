@@ -8,7 +8,7 @@ namespace EntityLayer.Concrete
 {
     public class Room
     {
-        public int RoomID { get; set; }
+        public int Id { get; set; }
         public string RoomNumber { get; set; }
         public string RoomCoverImage { get; set; }
         public int Price { get; set; }
