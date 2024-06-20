@@ -16,8 +16,7 @@
       "launchUrl": "weatherforecast",
       "applicationUrl": "http://localhost:5279",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT": "false"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {

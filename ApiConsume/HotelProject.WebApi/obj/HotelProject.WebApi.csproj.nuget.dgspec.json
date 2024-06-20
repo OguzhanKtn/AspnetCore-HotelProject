@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj": {}
+    "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -88,17 +88,17 @@
         }
       }
     },
-    "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -169,17 +169,17 @@
         }
       }
     },
-    "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
+    "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
         "projectName": "DtoLayer",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DtoLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,8 +193,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -250,17 +250,17 @@
         }
       }
     },
-    "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -327,17 +327,17 @@
         }
       }
     },
-    "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj": {
+    "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
+        "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
         "projectName": "HotelProject.WebApi",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\HotelProject.WebApi\\obj\\",
+        "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\HotelProject.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -351,17 +351,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\DtoLayer\\DtoLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\DtoLayer\\DtoLayer.csproj"
               },
-              "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\RapidApi\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }

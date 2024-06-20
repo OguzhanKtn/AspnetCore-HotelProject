@@ -7,19 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{A8209555-8079-4288-A2EA-E5F5CD31548D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{5DEF663A-6C43-4559-9059-06D4598C037C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelProject.WebApi", "ApiConsume\HotelProject.WebApi\HotelProject.WebApi.csproj", "{DEE788FF-E0AB-4ECA-9C62-68815C39AE4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebApi", "ApiConsume\HotelProject.WebApi\HotelProject.WebApi.csproj", "{DEE788FF-E0AB-4ECA-9C62-68815C39AE4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "ApiConsume\EntityLayer\EntityLayer.csproj", "{5265E8A6-1B73-48B5-99D7-D44F20778FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "ApiConsume\EntityLayer\EntityLayer.csproj", "{5265E8A6-1B73-48B5-99D7-D44F20778FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "ApiConsume\DataAccessLayer\DataAccessLayer.csproj", "{AD0BD8D6-F83F-4778-8EDF-72A4DDEC1924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "ApiConsume\DataAccessLayer\DataAccessLayer.csproj", "{AD0BD8D6-F83F-4778-8EDF-72A4DDEC1924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "ApiConsume\BusinessLayer\BusinessLayer.csproj", "{E91F07A0-454E-4EE8-980B-EA38CFCC2C3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "ApiConsume\BusinessLayer\BusinessLayer.csproj", "{E91F07A0-454E-4EE8-980B-EA38CFCC2C3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DtoLayer", "ApiConsume\DtoLayer\DtoLayer.csproj", "{9804E448-7478-4E78-9A4F-9F4216550067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtoLayer", "ApiConsume\DtoLayer\DtoLayer.csproj", "{9804E448-7478-4E78-9A4F-9F4216550067}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "Frontend\WebUI\WebUI.csproj", "{36ED2C5C-B9B3-430D-9627-95F237C4EFB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "Frontend\WebUI\WebUI.csproj", "{36ED2C5C-B9B3-430D-9627-95F237C4EFB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
