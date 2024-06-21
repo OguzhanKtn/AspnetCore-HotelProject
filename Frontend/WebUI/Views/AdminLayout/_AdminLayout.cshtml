@@ -4,19 +4,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<br />
-@await Html.PartialAsync("/Views/AdminLayout/HeadPartial.cshtml");
+@await Html.PartialAsync("/Views/AdminLayout/HeadPartial.cshtml")
 
 <body>
-    @await Html.PartialAsync("/Views/AdminLayout/PreloaderPartial.cshtml");
+    @await Html.PartialAsync("/Views/AdminLayout/PreloaderPartial.cshtml")
    
     <div id="main-wrapper">
 
-        @await Html.PartialAsync("/Views/AdminLayout/NavheaderPartial.cshtml");
+        @await Html.PartialAsync("/Views/AdminLayout/NavheaderPartial.cshtml")
 
-        @await Html.PartialAsync("/Views/AdminLayout/HeaderPartial.cshtml");
+        @await Html.PartialAsync("/Views/AdminLayout/HeaderPartial.cshtml")
 
-        @await Html.PartialAsync("/Views/AdminLayout/SidebarPartial.cshtml");
+        @await Html.PartialAsync("/Views/AdminLayout/SidebarPartial.cshtml")
 
         <div class="content-body">
             <div class="container-fluid">
@@ -32,10 +31,10 @@
             </div>
             
         </div>
-        @await Html.PartialAsync("/Views/AdminLayout/FooterPartial.cshtml");
+        @await Html.PartialAsync("/Views/AdminLayout/FooterPartial.cshtml")
        
     </div>   
-    @await Html.PartialAsync("/Views/AdminLayout/ScriptPartial.cshtml");
+    @await Html.PartialAsync("/Views/AdminLayout/ScriptPartial.cshtml")
 </body>
 
 </html>

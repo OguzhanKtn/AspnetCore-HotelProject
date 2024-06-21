@@ -417,3 +417,8 @@ C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProje
 C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net8.0\HotelProject.WebApi.pdb
 C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net8.0\HotelProject.WebApi.genruntimeconfig.cache
 C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net8.0\ref\HotelProject.WebApi.dll
+C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net8.0\HotelProject.WebApi.MvcApplicationPartsAssemblyInfo.cs
