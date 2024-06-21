@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj": {}
+    "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj": {
+    "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
         "projectName": "WebUI",
-        "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\obj\\",
+        "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
+        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,25 +40,33 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
