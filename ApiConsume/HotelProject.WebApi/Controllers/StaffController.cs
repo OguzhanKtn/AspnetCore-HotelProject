@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,14 +24,17 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddStaff()
+        public IActionResult AddStaff(Staff staff)
         {
+            _staffService.Insert(staff);
             return Ok();
         }
 
-        [HttpDelete]
-        public IActionResult DeleteStaff()
+        [HttpDelete("{id}")]
+        public IActionResult DeleteStaff(int id)
         {
+            var value = _staffService.GetByID(id);
+            _staffService.Delete(value);
             return Ok();
         }
 
