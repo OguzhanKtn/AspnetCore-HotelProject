@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Text;
 using WebUI.Models.Staff;
 
 namespace WebUI.Controllers
@@ -25,6 +26,28 @@ namespace WebUI.Controllers
                 return View(values);
             }
 
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Add() 
+        { 
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(AddStaffViewModel model) 
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(model);
+
+            StringContent stringContent = new StringContent(jsonData,Encoding.UTF8,"application/json");
+            var responseMessage = await client.PostAsync("http://localhost:10881/api/Staff",stringContent);
+
+            if(responseMessage.IsSuccessStatusCode) 
+            {
+                return RedirectToAction("Index");
+            }
             return View();
         }
     }
