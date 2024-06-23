@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using BusinessLayer.Abstract;
+using DtoLayer.Dtos.RoomDto;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelProject.WebApi.Controllers
@@ -7,33 +11,57 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class RoomController : ControllerBase
     {
+        private readonly IRoomService _roomService;
+        private readonly IMapper _mapper;
+        public RoomController(IRoomService roomService, IMapper mapper)
+        {
+            _roomService = roomService;
+            _mapper = mapper;
+        }
+
         [HttpGet]
         public IActionResult RoomList()
         {
-            return Ok();
+            var values = _roomService.GetAll();
+            return Ok(values);
         }
 
         [HttpPost]
-        public IActionResult AddRoom() 
+        public IActionResult AddRoom(AddRoomDto roomDto) 
         {
+            if(!ModelState.IsValid) 
+            {
+                return BadRequest();
+            }
+            var values = _mapper.Map<Room>(roomDto);
+            _roomService.Insert(values);
             return Ok();
         }
 
-        [HttpDelete]
-        public IActionResult DeleteRoom()
+        [HttpDelete("{id}")]
+        public IActionResult DeleteRoom(int id)
         {
+            var value = _roomService.GetByID(id);
+            _roomService.Delete(value);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult UpdateRoom() 
+        public IActionResult UpdateRoom(UpdateRoomDto roomDto) 
         { 
+            if(!ModelState.IsValid) 
+            {
+                return BadRequest();
+            }
+            var values = _mapper.Map<Room>(roomDto);
+            _roomService.Update(values);
             return Ok();
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetRoom() 
+        public IActionResult GetRoom(int id) 
         {
+            _roomService.GetByID(id);
             return Ok();
         }
     }

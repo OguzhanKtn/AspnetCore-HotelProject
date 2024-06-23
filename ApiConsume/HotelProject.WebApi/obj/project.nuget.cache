@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fi0lgsOY5k+YjksYyQBlVSrqEeOnItDECu8QWWCVX2Dhb4xKfVvPJpKy/tuc4JsfdEq/FeUS90IHxGpm4yFBKw==",
+  "dgSpecHash": "v0eRcKmGzox3j3MhqgVqJdhhUSLS5z7p4Lni48Oo/nG5N5cxzkWJATmDgAW4NpA1qjE8wl1iQoFczAp03FjVcw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

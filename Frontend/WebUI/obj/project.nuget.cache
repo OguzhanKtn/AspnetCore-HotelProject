@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MAySKSCJNmHoQ4PFTBeH69hFUbe3MDMoo7Qcej8e0/kdpI1Teg1PWiXBENri7oUkovWLHN9l8qbsqhD79J7ysA==",
+  "dgSpecHash": "iL8scAf694GZ6K32LvUOx20SsWih4Dh5Sz2V7zTXgMxQL0iRLGdMdDhrUBNMxW7WFdgqy7meJ7Zft8O85ts7lg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
