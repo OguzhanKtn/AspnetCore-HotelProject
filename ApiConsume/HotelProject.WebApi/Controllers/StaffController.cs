@@ -39,15 +39,17 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpPut]
-        public IActionResult UpdateStaff()
+        public IActionResult UpdateStaff(Staff staff)
         {
+            _staffService.Update(staff);
             return Ok();
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetStaff()
+        public IActionResult GetStaff(int id)
         {
-            return Ok();
+           var value = _staffService.GetByID(id);
+            return Ok(value);
         }
     }
 }
