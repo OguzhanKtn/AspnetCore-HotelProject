@@ -5,6 +5,7 @@ namespace WebUI.Dtos.ServiceDto
     public class UpdateServiceDto
     {
         public int Id { get; set; }
+
         [Required(ErrorMessage = "Hizmet ikon linki giriniz.")]
         public string ServiceIcon { get; set; }
 
