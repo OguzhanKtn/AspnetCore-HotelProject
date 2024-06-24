@@ -423,3 +423,9 @@ C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.
 C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net8.0\HotelProject.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net8.0\HotelProject.WebApi.MvcApplicationPartsAssemblyInfo.cs

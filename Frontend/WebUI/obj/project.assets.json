@@ -8188,19 +8188,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\Oğuzhan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
       "projectName": "WebUI",
-      "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\obj\\",
+      "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\WebUI.csproj",
+      "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\Frontend\\WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8214,8 +8214,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\AspnetCore-HotelProject\\ApiConsume\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

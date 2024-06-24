@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,27 +24,32 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddServices()
+        public IActionResult AddServices(Services services)
         {
+            _servicesServices.Insert(services);
             return Ok();
         }
 
-        [HttpDelete]
-        public IActionResult DeleteServices()
+        [HttpDelete("{id}")]
+        public IActionResult DeleteServices(int id)
         {
+            var value = _servicesServices.GetByID(id);
+            _servicesServices.Delete(value);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult UpdateServices()
+        public IActionResult UpdateServices(Services services)
         {
+            _servicesServices.Update(services);
             return Ok();
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetServices()
+        public IActionResult GetServices(int id)
         {
-            return Ok();
+            var value = _servicesServices.GetByID(id);
+            return Ok(value);
         }
     }
 }

@@ -529,3 +529,6 @@ C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\runtimes\win\l
 C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\AutoMapper.dll
 C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\EntityLayer.dll
 C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\EntityLayer.pdb
