@@ -539,3 +539,10 @@ C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\De
 C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\DataAccessLayer.dll
 C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\DataAccessLayer.dll
+C:\GitHub\AspnetCore-HotelProject\Frontend\WebUI\bin\Debug\net8.0\DataAccessLayer.pdb

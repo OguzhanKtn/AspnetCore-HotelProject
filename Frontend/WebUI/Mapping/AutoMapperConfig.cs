@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EntityLayer.Concrete;
+using WebUI.Dtos.AboutDto;
 using WebUI.Dtos.LoginDto;
 using WebUI.Dtos.RegisterDto;
 using WebUI.Dtos.ServiceDto;
@@ -15,7 +16,10 @@ namespace WebUI.Mapping
             CreateMap<CreateServiceDto, Services>().ReverseMap();
 
             CreateMap<CreateNewUserDto, AppUser>().ReverseMap();
-            CreateMap<LoginUserDto,AppUser>().ReverseMap();
+            CreateMap<LoginUserDto, AppUser>().ReverseMap();
+
+            CreateMap<ResultAboutDto, About>().ReverseMap();
+            CreateMap<UpdateAboutDto, About>().ReverseMap();
         }
     }
 }
