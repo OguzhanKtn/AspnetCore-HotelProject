@@ -1,6 +1,6 @@
 ﻿namespace WebUI.Dtos.AboutDto
 {
-     record ResultAboutDto
+    public record ResultAboutDto
     (
          string Title1,
          string Title2,
