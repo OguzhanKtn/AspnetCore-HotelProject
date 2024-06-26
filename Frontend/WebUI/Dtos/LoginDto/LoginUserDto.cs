@@ -2,12 +2,12 @@
 
 namespace WebUI.Dtos.LoginDto
 {
-    public class LoginUserDto
-    {
+    public record LoginUserDto
+    (
         [Required(ErrorMessage ="Kullanıcı adınızı giriniz.")]
-        public string UserName { get; set;}
+        string UserName,
 
         [Required(ErrorMessage = "Parolanızı giriniz.")]
-        public string Password { get; set;}
-    }
+        string Password
+    );
 }

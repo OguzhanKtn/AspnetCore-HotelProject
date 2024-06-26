@@ -2,19 +2,19 @@
 
 namespace WebUI.Dtos.ServiceDto
 {
-    public class UpdateServiceDto
-    {
-        public int Id { get; set; }
+    public record UpdateServiceDto
+    (
+        int Id,
 
         [Required(ErrorMessage = "Hizmet ikon linki giriniz.")]
-        public string ServiceIcon { get; set; }
+        string ServiceIcon,
 
         [Required(ErrorMessage = "Hizmet başlığı giriniz.")]
         [StringLength(100, ErrorMessage = "Hizmet başlığı en fazla 100 karakter olabilir.")]
-        public string Title { get; set; }
+        string Title,
 
         [Required(ErrorMessage = "Hizmet açıklaması giriniz.")]
         [StringLength(100, ErrorMessage = "Hizmet başlığı en fazla 500 karakter olabilir.")]
-        public string Description { get; set; }
-    }
+        string Description
+    );
 }

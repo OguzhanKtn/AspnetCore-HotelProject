@@ -3,6 +3,7 @@ using EntityLayer.Concrete;
 using WebUI.Dtos.AboutDto;
 using WebUI.Dtos.LoginDto;
 using WebUI.Dtos.RegisterDto;
+using WebUI.Dtos.RoomDto;
 using WebUI.Dtos.ServiceDto;
 
 namespace WebUI.Mapping
@@ -20,6 +21,8 @@ namespace WebUI.Mapping
 
             CreateMap<ResultAboutDto, About>().ReverseMap();
             CreateMap<UpdateAboutDto, About>().ReverseMap();
+
+            CreateMap<ResultRoomDto, Room>().ReverseMap();
         }
     }
 }
