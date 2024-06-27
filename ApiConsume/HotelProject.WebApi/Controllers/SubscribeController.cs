@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,8 +24,9 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddSubscribe()
+        public IActionResult AddSubscribe(Subscribe subscribe)
         {
+            _SubscribeService.Insert(subscribe);
             return Ok();
         }
 

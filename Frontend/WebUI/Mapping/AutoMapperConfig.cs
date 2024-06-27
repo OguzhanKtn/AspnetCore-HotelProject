@@ -6,6 +6,7 @@ using WebUI.Dtos.RegisterDto;
 using WebUI.Dtos.RoomDto;
 using WebUI.Dtos.ServiceDto;
 using WebUI.Dtos.StaffDto;
+using WebUI.Dtos.SubscribeDto;
 
 namespace WebUI.Mapping
 {
@@ -26,6 +27,8 @@ namespace WebUI.Mapping
             CreateMap<ResultRoomDto, Room>().ReverseMap();
 
             CreateMap<ResultStaffDto, Staff>().ReverseMap();
+
+            CreateMap<CreateSubscribeDto, Subscribe>().ReverseMap();
         }
     }
 }
