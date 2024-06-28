@@ -17,6 +17,6 @@ namespace EntityLayer.Concrete
         public string ChildCount { get; set; }
         public string RoomCount { get; set; }
         public string SpecialRequest { get; set; }
-        public bool Status { get; set; }
+        public string Status { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EntityLayer.Concrete;
 using WebUI.Dtos.AboutDto;
+using WebUI.Dtos.BookingDto;
 using WebUI.Dtos.LoginDto;
 using WebUI.Dtos.RegisterDto;
 using WebUI.Dtos.RoomDto;
@@ -29,6 +30,8 @@ namespace WebUI.Mapping
             CreateMap<ResultStaffDto, Staff>().ReverseMap();
 
             CreateMap<CreateSubscribeDto, Subscribe>().ReverseMap();
+
+            CreateMap<CreateBookingDto, Booking>().ReverseMap();
         }
     }
 }
