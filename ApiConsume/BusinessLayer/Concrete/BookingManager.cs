@@ -17,7 +17,6 @@ namespace BusinessLayer.Concrete
         {
             _bookingDal = bookingDal;
         }
-
         public void Delete(Booking item)
         {
             _bookingDal.Delete(item);

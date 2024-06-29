@@ -2,6 +2,7 @@
 {
     public record ResultBookingDto 
     (
+         int id,
          string Name, 
          string Mail, 
          DateTime CheckIn, 
