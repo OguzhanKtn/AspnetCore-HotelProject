@@ -47,8 +47,8 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet("{id}")]
         public IActionResult GetAbout(int id)
         {
-            _AboutService.GetByID(id);
-            return Ok();
+           var value = _AboutService.GetByID(id);
+            return Ok(value);
         }
     }
 }

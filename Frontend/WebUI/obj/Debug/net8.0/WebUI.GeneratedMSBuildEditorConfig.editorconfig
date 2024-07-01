@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Oğuzhan\Documents\GitHub\AspnetCore-HotelProject\Frontend\WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Oğuzhan/Documents/GitHub/AspnetCore-HotelProject/Frontend/WebUI/Views/AdminAbout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Oğuzhan/Documents/GitHub/AspnetCore-HotelProject/Frontend/WebUI/Views/AdminAbout/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxVcGRhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Oğuzhan/Documents/GitHub/AspnetCore-HotelProject/Frontend/WebUI/Views/AdminLayout/FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
